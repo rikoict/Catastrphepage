@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Choose Your Form</title>
+	<link rel="stylesheet" href="tryout.css">
+	<link rel="icon" type="image/x-icon" href="cte.png">
+</head>
+<body>
+    <div class= "banner">
+        <div class="navi">
+            <img src="cte.png" alt="logo">
+            <ul>
+				<li><a href="Prototype.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="team.html">Teams</a></li>
+                <li><a href="tryout.html">Tryouts</a></li>
+				<li><a href="acknowledgement.html">Acknowledgement</a></li>
+            </ul>
+        </div>
+	<div class="container">
+		<h1>Multipayer Form</h1>
+		<div class="form-selection">
+			<label>
+				<input type="radio" name="form-type" value="form1" checked> Casual
+			</label>
+			<label>
+				<input type="radio" name="form-type" value="form2"> Competetive
+			</label>
+		</div>
+		<div class="form-container">
+			<form id="form1">
+				<h2>Casual Players Form</h2>
+				<div class="form-group">
+					<label for="name1">Fullname:</label>
+					<input type="text" id="name1" name="name1" required>
+				</div>
+				<div class="form-group">
+					<label for="name1">Username:</label>
+					<input type="text" id="name1-9" name="name1-9" required>
+				</div>
+				<div class="form-group">
+					<label for="age1">Age:</label>
+					<input type="number" id="age1" name="age1" required>
+				</div>
+				<div class="form-group">
+					<label for="picture1">Screenshot of the current stats:</label>
+					<input type="file" id="picture1" name="picture1">
+				</div>
+				<div class="form-group">
+					<label for="option1">Role or Position:</label>
+					<select id="option1" name="option1">
+						<option value="option1-1">Sniper</option>
+						<option value="option1-2">Slayer</option>
+						<option value="option1-3">Obj</option>
+						<option value="option1-4">Anchor</option>
+						<option value="option1-5">Support</option>
+						<option value="option1-6">Flexi</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="statement1">Reason for joining our clan:</label>
+					<textarea id="statement1" name="statement1" rows="4"></textarea>
+				</div>
+				<button type="submit">Submit</button>
+			</form>
+			<form id="form2" style="display: none;">
+				<h2>Competetive Players Form</h2>
+				<div class="form-group">
+					<label for="name2">Fullname:</label>
+					<input type="text" id="name2" name="name2" required>
+				</div>
+				<div class="form-group">
+					<label for="name2">Username:</label>
+					<input type="text" id="name2-9" name="name2-9" required>
+				</div>
+				<div class="form-group">
+					<label for="age2">Age:</label>
+					<input type="number" id="age2" name="age2" required>
+				</div>
+				<div class="form-group">
+					<label for="picture2">Screenshot of current stats:</label>
+					<input type="file" id="picture2" name="picture2">
+				</div>
+				<div class="form-group">
+					<label for="option2">Role or Position:</label>
+					<select id="option2" name="option2">
+						<option value="option2-1">Sniper</option>
+						<option value="option2-2">Slayer</option>
+						<option value="option2-3">Obj</option>
+						<option value="option2-4">Anchor</option>
+						<option value="option2-5">Support</option>
+						<option value="option2-6">Flexi</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="statement2">Previous clans:</label>
+					<textarea id="statement2" name="statement2" rows="4"></textarea>
+				</div>
+				<div class="form-group">
+					<label for="statement3">Achievements:</label>
+					<textarea id="statement3" name="statement3" rows="4"></textarea>
+				</div>
+				<button type="submit">Submit</button>
+			</form>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
+
